@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  display: block;
-}
 
 .raleway-initial {
   font-family: "Raleway", sans-serif;
@@ -48,7 +45,17 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.container__nav {
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.conteiner__intro {
+  width: 100%;
+}
 .logo {
   height: 26px;
   width: 75px;
@@ -60,8 +67,8 @@ body {
 }
 
 .nav__link {
-  display: inline-block;
-  vertical-align: top;
+  display: inline-flex;
+
   margin: 0 45px;
   position: relative;
   color: #fff;
@@ -72,6 +79,13 @@ body {
 
 .nav__link:focus {
   color: #ff9b51;
+}
+.menu {
+  display: none;
+  height: 24px;
+  width: 24px;
+
+  margin-left: 0;
 }
 
 .section {
@@ -328,7 +342,7 @@ body {
   width: 100%;
   height: auto;
   margin-left: 0;
-  margin-right: 15%;
+
   -webkit-box-shadow: 0px 16px 15px 6px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 16px 15px 6px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 16px 15px 6px rgba(34, 60, 80, 0.2);
@@ -375,6 +389,7 @@ body {
 }
 span {
   text-transform: uppercase;
+  font-size: 65pt;
 }
 .awesome-hr {
   margin: 2% auto;
@@ -400,6 +415,9 @@ span {
 .options {
   height: 900px;
   background: #f5f5f5;
+}
+.customers {
+  height: 600px;
 }
 .options__block {
   width: 350px;
@@ -536,26 +554,29 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: top;
 }
 .footer__copyright {
   width: 10px;
   height: 10px;
   margin-right: 5px;
 }
-
 .contact {
+  height: 600px;
+}
+
+.contact__container {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
   margin-top: 70px;
 }
 
 .contact__input {
-  width: 530px;
+  width: 48%;
   height: 100%;
   margin-left: 0;
   outline: none;
-
+  margin-top: 0;
   display: block;
   justify-content: left;
 }
@@ -628,4 +649,28 @@ span {
   background: #ffb379;
   border: 0;
   outline: none;
+}
+
+textarea {
+  width: 95%;
+  height: 155px;
+  margin-right: 0;
+  margin-top: 0;
+  border: 0;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  opacity: 0.3;
+
+  resize: none;
+  overflow: hidden;
+}
+
+.contact__form {
+  width: 48%;
+}
+textarea:focus {
+  color: #000000;
+  outline: none;
+  opacity: 1;
 }

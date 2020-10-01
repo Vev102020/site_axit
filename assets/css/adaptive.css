@@ -1,0 +1,267 @@
+@media screen and (max-width: 1240px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 426px) {
+  /*ШРИФТ*/
+  .raleway-initial {
+    font-size: 20pt;
+  }
+  .raleway-normal {
+    font-size: 20pt;
+  }
+  .raleway-bold {
+  }
+  .sans-normal {
+    font-size: 10pt;
+  }
+  .sans-bold {
+    font-size: 12pt;
+  }
+  /*СТИЛИ*/
+
+  .nav__link {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    height: 30px;
+    width: 30px;
+
+    margin-left: 0;
+  }
+  .registration {
+    height: 780px;
+  }
+  .container {
+    max-width: 420px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .conteiner__intro {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .logo_big {
+    height: 50px;
+    width: 150px;
+  }
+  .intro-hr {
+    margin: auto;
+  }
+  .intro__title {
+    margin: 5% 0 5%;
+  }
+  .intro__title2 {
+    margin: 5% 0 0;
+    font-size: 10pt;
+    text-align: justify;
+  }
+  .intro__button {
+    font-size: 10pt;
+    margin-top: 5%;
+  }
+  .reg {
+    width: 100%;
+    margin-top: 10%;
+    height: 360px;
+    margin-left: 0;
+  }
+  .reg__con1 {
+    height: 13%;
+  }
+  .reg__input {
+    height: 250px;
+  }
+  .reg__con2 {
+    height: 13%;
+  }
+  .social {
+    height: 170px;
+    justify-content: center;
+    text-align: center;
+  }
+  .social__title2 {
+    text-align: justify;
+    margin-top: 5%;
+  }
+  .social__icon {
+    margin-right: 0;
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon__icon__link {
+    height: 25px;
+    width: 25px;
+    max-width: 30px;
+    padding: 0;
+  }
+  .tab__text {
+    display: contents;
+    align-content: center;
+  }
+  .tab__button {
+    margin: auto;
+    width: 100%;
+    height: 108px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .button__tab {
+    height: 112px;
+    width: 112px;
+    margin-top: 0;
+    font-size: 10pt;
+  }
+  .button-border-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+  }
+  .button-border-bottom {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .tab {
+    height: 770px;
+  }
+  .tab__container {
+    display: block;
+    align-content: center;
+  }
+  .tab__title {
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  .tab__title2 {
+    text-align: justify;
+  }
+
+  .city {
+    margin: 0;
+    margin-top: 40px;
+  }
+  .sub-list__image {
+    margin-right: 0;
+    margin-bottom: 8%;
+  }
+  .tab__title3 {
+    margin-top: 5%;
+  }
+  .sub-list {
+    height: 660px;
+  }
+  .sub-list__con {
+    margin-top: 5%;
+  }
+  .standard {
+    height: 560px;
+  }
+  .standard__image {
+    margin: 8% 0 5%;
+  }
+  .awesome {
+    height: 830px;
+  }
+  .awesome-hr {
+    margin: 5% auto;
+  }
+  .awesome__block {
+    display: flex;
+    flex-direction: column;
+  }
+  .awesome__block2 {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .options {
+    height: 1650px;
+  }
+  .options__block {
+    margin-bottom: 5%;
+    padding: 0;
+  }
+  span {
+    font-size: 55pt;
+  }
+  .customers {
+    height: 980px;
+  }
+  .customers__block {
+    width: 100%;
+    padding-top: 5%;
+  }
+  .contact {
+    height: 600px;
+    margin-top: 5%;
+  }
+
+  .contact__container {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .contact__input {
+    width: 100%;
+  }
+  .contact__form {
+    width: 100%;
+  }
+  .contact__button {
+    margin-top: 10%;
+    width: 120px;
+  }
+}
+@media screen and (max-width: 320px) {
+}
+
+/* стили для больших планшетов - начало */
+/* @media screen and (max-width: 991px) {
+
+
+} */
+/* стили для средних планшетов - начало */
+/* @media screen and (max-width: 767px) {
+
+
+} */
+/* стили для телефонов - начало */
+/* @media screen and (max-width: 479px) {
+
+} */
+
+/* Смартфоны (Портрет и ландшафтный)
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+/*Смартфоны (ландшафтный)*/
+/* @media only screen and (min-width: 321px) {
+} */
+/*Смартфоны (portrait)*/
+/* @media only screen and (max-width: 320px) {
+} */
+/*iPads (Портрет и Ландшафтный)*/
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+} */
+/*iPads (Ландшафтный)*/
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+} */
+/*iPads (Портрет)*/
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+} */
+/*Настольные компьютеры и ноутбуки*/
+/* @media only screen and (min-width: 1224px) {
+} */
+/*Большие экраны*/
+/* @media only screen and (min-width: 1824px) {
+} */
+/*iPhone 4*/
+/* @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+}  */

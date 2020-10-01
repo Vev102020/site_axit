@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="header nav">
-        <div class="container">
+        <div class="container__nav">
             <img  src="assets/image/logo_navbar.png" alt="logo_navbar" class="logo">
             <nav>
                 <a class="nav__link sans-normal" href="#">Features</a>
@@ -20,16 +20,18 @@
                 <a class="nav__link sans-normal" href="#">Pricing</a>
                 <a class="nav__link sans-normal" href="#">Reviews</a>
                 <a class="nav__link sans-normal" href="#">Contract</a>
+                <img src="assets/image/icon/icon_menu.png" alt="menu" class="menu">
             </nav>
+
         </div>
     </header>
  
     <section class="header registration">
         <div class="container">
-            <div style="width: 100%">
+            <div class="conteiner__intro">
                 <img src="assets/image/logo_big.png" alt="logo_big" class="logo_big">
                 <h1 class="intro__title raleway-normal">Modern axure template for beautiful prototipes</h1>
-                <hr align="left" width="60px" size="2px" color="#dddddd" />
+                <hr  align="left" width="60px" size="2px" color="#dddddd" class="intro-hr"/>
                 <p class="intro__title2 raleway-initial">Lorem ipsum dolor sit amet consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
                 <button class="intro__button sans-bold">Download</button>   
             </div>
@@ -81,7 +83,7 @@
                 <button class="button__tab sans-bold">Tab2</button>
                 <button class="button__tab button-border-bottom sans-bold">Tab3</button>
             </div>
-            <div style="width: 100%">
+            <div class="tab__text" style="width: 100%">
                 <p class="tab__title sans-bold">Tabs with soft transitioning effect.</p>
                 <p class="tab__title2 sans-normal">Lorem ipsum dolor sit amet consectetur adipiscing elit. Aenean 
                  euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum socils natoque penatibus et magnis dis parturient monters.</p>
@@ -96,7 +98,7 @@
     <section class="header sub-list">
         <div class="container">
             <img src="/assets/image/image_sub_list.png" class="sub-list__image" alt="sub-list">
-            <div style="width: 100%">
+            <div class="tab__text" style="width: 100%">
                 <p class="tab__title3 sans-bold">Sub list section</p>
                 <hr align="left" width="70px" size="2px" color="#ff9b51" />
                 <p class="tab__title2 sans-normal">Lorem ipsum dolor sit amet consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
@@ -122,7 +124,7 @@
 
     <section class="header standard">
         <div class="container">
-            <div style="width: 100%">
+            <div class="tab__text">
                 <p class="tab__title3 sans-bold">Standard Picture Section</p>
                 <hr align="left" width="70px" size="2px" color="#ff9b51" />
                 <p class="tab__title2 sans-normal">Lorem ipsum dolor sit amet consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum socils natoque penatibus et magnis dis parturient monters</p>
@@ -178,7 +180,7 @@
                         <p class="sans-bold option__title">Basic</p>
                     </div>
                     <div class="options__block__section2">
-                        <p class="raleway-bold option__title2">$ <span style="font-size: 65pt;">0</span></p>
+                        <p class="raleway-bold option__title2">$ <span>0</span></p>
                         <p class="sans-normal option__title3">Free for Life</span></p>
                     </div>
                     <div class="options__block__section3" style="height: 5px;">
@@ -208,7 +210,7 @@
                         <p class="sans-bold option__title">Professional</p>
                     </div>
                     <div class="options__block__section2">
-                        <p class="raleway-bold option__title2">$ <span style="font-size: 60pt;">19</span></p>
+                        <p class="raleway-bold option__title2">$ <span>19</span></p>
                         <p class="sans-normal option__title3">Monthly Payment</span></p>
                     </div>
                     <div class="options__block__section3">
@@ -238,7 +240,7 @@
                         <p class="sans-bold option__title">Enterprise</p>
                     </div>
                     <div class="options__block__section2">
-                        <p class="raleway-bold option__title2">$ <span style="font-size: 65pt;">70</span></p>
+                        <p class="raleway-bold option__title2">$ <span>70</span></p>
                         <p class="sans-normal option__title3">Monthly Payment</span></p>
                     </div>
                     <div class="options__block__section3" style="height: 5px;">
@@ -270,7 +272,7 @@
 
     </section>
 
-    <section class="header awesome">
+    <section class="header customers">
         <div class="awesome__container">
             <span class="raleway-initial">What our customers are saying</span>
             <hr width="70px" size="2px" color="#ff9b51" class="awesome-hr"></hr>
@@ -333,25 +335,26 @@
 
     </section>
     
-    <section class="header awesome">
+    <section class="header contact">
         <div class="awesome__container">
             <span class="raleway-initial">Contact Us</span>
             <hr width="70px" size="2px" color="#ff9b51" class="awesome-hr"></hr>
             
             <p class="awesome__title sans-normal">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>    
-            <div class="contact">
+            <div class="contact__container">
                 <div class="contact__input">
-                    <input class="contact__input__state sans-normal" type="text" placeholder="Name" name="name" required>
+                    <input maxlength="40" class="contact__input__state sans-normal" type="text" placeholder="Name" name="name" required>
                     <hr class="contact-hr"></hr>
-                    <input class="contact__input__state sans-normal" type="text" placeholder="Email" name="email" required>
+                    <input maxlength="40" class="contact__input__state sans-normal" type="text" placeholder="Email" name="email" required>
                     <hr class="contact-hr"></hr>
-                    <input class="contact__input__state sans-normal" type="text" placeholder="Subject" name="subject" required>
+                    <input maxlength="40" class="contact__input__state sans-normal" type="text" placeholder="Subject" name="subject" required>
                     <hr class="contact-hr"></hr>        
                 </div>
-                <div class="contact__message">
-                    <input class="contact__input__state2 sans-normal" type="text" placeholder="Message" name="message" required>
+                
+                <form class="contact__form" >
+                    <p><textarea maxlength="340" name="" type="text" id="" class="sans-normal" rows="10" placeholder="Message"></textarea></p>
                     <hr class="contact-hr2"></hr>
-                </div>
+                </form>
 
             </div>    
             <button class="contact__button sans-normal">Send Message</button>            
