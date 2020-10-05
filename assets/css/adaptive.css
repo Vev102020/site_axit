@@ -1,7 +1,7 @@
 @media screen and (max-width: 1240px) {
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
 }
 
 @media screen and (max-width: 426px) {
@@ -76,6 +76,8 @@
   .reg__input {
     height: 250px;
   }
+  .reg__input__state {
+  }
   .reg__con2 {
     height: 13%;
   }
@@ -148,6 +150,7 @@
   .city {
     margin: 0;
     margin-top: 40px;
+    width: 300px;
   }
   .sub-list__image {
     margin-right: 0;
@@ -218,8 +221,61 @@
     margin-top: 10%;
     width: 120px;
   }
+
+  .footer__icon {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__icon__link {
+    margin: 0;
+  }
+  .footer__title {
+    font-size: 8pt;
+  }
+}
+@media screen and (max-width: 416px) and (min-width: 321px) {
+  .registration {
+    height: 710px;
+  }
+  .conteiner__intro {
+    margin-top: 15%;
+  }
+  .reg {
+    min-width: 80%;
+  }
+
+  .reg__input {
+    height: 180px;
+  }
+  .button__tab {
+    height: 90px;
+    width: 33%;
+  }
+  .awesome {
+    height: 900px;
+  }
+  .options__block {
+    width: 250px;
+  }
 }
 @media screen and (max-width: 320px) {
+  .tab__button {
+    margin-top: 15%;
+  }
+  .button__tab {
+    height: 85%;
+    width: 33%;
+  }
+  .city {
+    width: 90%;
+  }
+  .reg {
+    min-width: 0;
+  }
 }
 
 /* стили для больших планшетов - начало */
