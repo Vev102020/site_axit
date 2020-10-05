@@ -236,10 +236,14 @@
 }
 .social__title2 {
   margin-bottom: 0;
+  width: 80%;
 }
 
 .social__icon {
+  min-width: 50%;
   margin-right: 0;
+  display: flex;
+  justify-content: space-between;
 }
 .icon__icon__link {
   float: right;
@@ -363,8 +367,6 @@
   background: #f5f5f5;
 }
 .standard__image {
-  /* width: 453px; 
-    height: 301px;  */
   width: 100%;
   height: auto;
   margin-left: 15%;
@@ -424,7 +426,7 @@ span {
 .options__block {
   width: 350px;
   display: block;
-  padding-left: 20px;
+  padding-left: 1%;
 }
 .options__block__section1 {
   width: 100%;
@@ -676,4 +678,3 @@ textarea:focus {
   outline: none;
   opacity: 1;
 }
-
